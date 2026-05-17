@@ -9,7 +9,7 @@ const CAMPUS_BOUNDS = {
   minLat: 11.9350, maxLat: 11.9420,
   minLng: 79.8280, maxLng: 79.8370,
 };
-
+ 
 function gpsToSVG(lat, lng) {
   const x = ((lng - CAMPUS_BOUNDS.minLng) / (CAMPUS_BOUNDS.maxLng - CAMPUS_BOUNDS.minLng)) * MAP_W;
   const y = MAP_H - ((lat - CAMPUS_BOUNDS.minLat) / (CAMPUS_BOUNDS.maxLat - CAMPUS_BOUNDS.minLat)) * MAP_H;
