@@ -8,7 +8,7 @@ const HALL_COLORS = ["#4F46E5","#7C3AED","#0891B2","#D97706","#059669","#DC2626"
 const CAMPUS_BOUNDS = {
   minLat: 11.9350, maxLat: 11.9420,
   minLng: 79.8280, maxLng: 79.8370,
-};
+}; 
  
 function gpsToSVG(lat, lng) {
   const x = ((lng - CAMPUS_BOUNDS.minLng) / (CAMPUS_BOUNDS.maxLng - CAMPUS_BOUNDS.minLng)) * MAP_W;
